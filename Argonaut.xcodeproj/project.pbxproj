@@ -14,6 +14,8 @@
 		710A42292A96850F0012505A /* ArgonautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A42282A96850F0012505A /* ArgonautTests.swift */; };
 		710A42332A96850F0012505A /* ArgonautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A42322A96850F0012505A /* ArgonautUITests.swift */; };
 		710A42352A96850F0012505A /* ArgonautUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A42342A96850F0012505A /* ArgonautUITestsLaunchTests.swift */; };
+		712498BB2A98EAC60063CA5C /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498BA2A98EAC60063CA5C /* BudgetsView.swift */; };
+		712498BF2A98EB2F0063CA5C /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498BE2A98EB2F0063CA5C /* Interfaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		710A422E2A96850F0012505A /* ArgonautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgonautUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710A42322A96850F0012505A /* ArgonautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgonautUITests.swift; sourceTree = "<group>"; };
 		710A42342A96850F0012505A /* ArgonautUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgonautUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		712498BA2A98EAC60063CA5C /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		712498BE2A98EB2F0063CA5C /* Interfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		710A42162A96850E0012505A /* Argonaut */ = {
 			isa = PBXGroup;
 			children = (
+				712498BD2A98EB190063CA5C /* Models */,
+				712498BC2A98EAE00063CA5C /* Views */,
 				710A42172A96850E0012505A /* ArgonautApp.swift */,
 				710A42192A96850E0012505A /* ContentView.swift */,
 				710A421B2A96850F0012505A /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				710A42342A96850F0012505A /* ArgonautUITestsLaunchTests.swift */,
 			);
 			path = ArgonautUITests;
+			sourceTree = "<group>";
+		};
+		712498BC2A98EAE00063CA5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				712498BA2A98EAC60063CA5C /* BudgetsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		712498BD2A98EB190063CA5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				712498BE2A98EB2F0063CA5C /* Interfaces.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				710A421A2A96850E0012505A /* ContentView.swift in Sources */,
+				712498BB2A98EAC60063CA5C /* BudgetsView.swift in Sources */,
 				710A42182A96850E0012505A /* ArgonautApp.swift in Sources */,
+				712498BF2A98EB2F0063CA5C /* Interfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
