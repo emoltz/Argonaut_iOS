@@ -9,10 +9,38 @@ struct Budget: Codable, Identifiable{
 }
 
 
-struct DateData{
+struct DateData: Codable{
     let month: Int
     let year: Int
     let monthName: String
 }
 
+struct MonthSummary: Codable{
+    let month: Int
+    let year: Int
+    let monthTotal: Int
+    let categoryTotals: Dictionary<String, Int>
+}
 
+struct CategoryBudget: Codable, Identifiable{
+    let id: Int
+    let category: String
+    let budgetAmount: Double
+    let spent: Double
+    let icon: String
+}
+
+struct Expense: Codable, Identifiable{
+    let id: String
+    let name: String
+    let amount: Double
+    let vendor: String
+    let description: String
+    let category: String
+    let categoryID: String
+    let date: Date
+    let month: Int
+    let year: Int
+    let isYearly: Bool
+    let isMonthly: Bool
+}
