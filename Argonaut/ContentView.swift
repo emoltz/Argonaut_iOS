@@ -15,6 +15,26 @@ struct ContentView: View {
                     Image(systemName: "dollarsign.circle.fill")
                     Text("Budgets")
                 }
+            ExpensesView()
+                .tabItem{
+                    Image(systemName: "creditcard.fill")
+                    Text("Expenses")
+                }
+            NewExpenseView()
+                .tabItem{
+                    Image(systemName:"plus.circle.fill")
+                    Text("Add Expense")
+                }
+            AnalysisView()
+                .tabItem{
+                    Image(systemName: "chart.pie.fill")
+                    Text("Analysis")
+                }
+            SettingsView()
+                .tabItem{
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
         }
     }
 }

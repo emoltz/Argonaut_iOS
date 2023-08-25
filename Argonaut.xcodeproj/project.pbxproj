@@ -17,6 +17,10 @@
 		712498BB2A98EAC60063CA5C /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498BA2A98EAC60063CA5C /* BudgetsView.swift */; };
 		712498BF2A98EB2F0063CA5C /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498BE2A98EB2F0063CA5C /* Interfaces.swift */; };
 		712498C12A98EFFB0063CA5C /* BudgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498C02A98EFFB0063CA5C /* BudgetCard.swift */; };
+		712498C32A98F5E70063CA5C /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498C22A98F5E70063CA5C /* ExpensesView.swift */; };
+		712498C52A98F62E0063CA5C /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498C42A98F62E0063CA5C /* NewExpenseView.swift */; };
+		712498C72A98F6950063CA5C /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498C62A98F6950063CA5C /* AnalysisView.swift */; };
+		712498C92A98F6B50063CA5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712498C82A98F6B50063CA5C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		712498BA2A98EAC60063CA5C /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
 		712498BE2A98EB2F0063CA5C /* Interfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
 		712498C02A98EFFB0063CA5C /* BudgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCard.swift; sourceTree = "<group>"; };
+		712498C22A98F5E70063CA5C /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		712498C42A98F62E0063CA5C /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		712498C62A98F6950063CA5C /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		712498C82A98F6B50063CA5C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,10 @@
 			children = (
 				712498BA2A98EAC60063CA5C /* BudgetsView.swift */,
 				712498C02A98EFFB0063CA5C /* BudgetCard.swift */,
+				712498C22A98F5E70063CA5C /* ExpensesView.swift */,
+				712498C42A98F62E0063CA5C /* NewExpenseView.swift */,
+				712498C62A98F6950063CA5C /* AnalysisView.swift */,
+				712498C82A98F6B50063CA5C /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,7 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				710A421A2A96850E0012505A /* ContentView.swift in Sources */,
+				712498C32A98F5E70063CA5C /* ExpensesView.swift in Sources */,
+				712498C52A98F62E0063CA5C /* NewExpenseView.swift in Sources */,
+				712498C92A98F6B50063CA5C /* SettingsView.swift in Sources */,
 				712498C12A98EFFB0063CA5C /* BudgetCard.swift in Sources */,
+				712498C72A98F6950063CA5C /* AnalysisView.swift in Sources */,
 				712498BB2A98EAC60063CA5C /* BudgetsView.swift in Sources */,
 				710A42182A96850E0012505A /* ArgonautApp.swift in Sources */,
 				712498BF2A98EB2F0063CA5C /* Interfaces.swift in Sources */,
