@@ -10,16 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            BudgetsView()
-                .tabItem{
-                    Image(systemName: "dollarsign.circle.fill")
-                    Text("Budgets")
-                }
             ExpensesView()
                 .tabItem{
                     Image(systemName: "creditcard.fill")
                     Text("Expenses")
                 }
+            BudgetsView()
+                .tabItem{
+                    Image(systemName: "dollarsign.circle.fill")
+                    Text("Budgets")
+                }
+          
             NewExpenseView()
                 .tabItem{
                     Image(systemName:"plus.circle.fill")

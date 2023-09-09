@@ -7,13 +7,9 @@
 
 import SwiftUI
 
-let dummyData: [CategoryBudget] = [
-    CategoryBudget(id: 1, category: "Activities", budgetAmount: 500, spent: 300, icon: "money"),
-    CategoryBudget(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "train"),
-    CategoryBudget(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "train"),
-    CategoryBudget(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "train"),
-    CategoryBudget(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "train"),
-    CategoryBudget(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "train"),
+let dummyData: [BudgetCalculated] = [
+    BudgetCalculated(id: 1, category: "Activities", budgetAmount: 500, spent: 300, icon: "figure.strengthtraining.functional"),
+    BudgetCalculated(id: 2, category: "Transportation", budgetAmount: 300, spent: 124, icon: "figure.walk"),
 ]
 
 let currentMonth = "August"

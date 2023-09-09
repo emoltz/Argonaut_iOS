@@ -1,10 +1,3 @@
-//
-//  ExpensesView.swift
-//  Argonaut
-//
-//  Created by Ethan Shafran Moltz on 8/25/23.
-//
-
 import SwiftUI
 
 struct ExpensesView: View {

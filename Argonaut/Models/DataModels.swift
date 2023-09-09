@@ -8,6 +8,13 @@ struct Budget: Codable, Identifiable{
     let isYearly: Bool
 }
 
+struct BudgetCalculated: Codable, Identifiable{
+    let id: Int
+    let category: String
+    let budgetAmount: Double
+    let spent: Double
+    let icon: String
+}
 
 struct DateData: Codable{
     let month: Int
@@ -20,14 +27,6 @@ struct MonthSummary: Codable{
     let year: Int
     let monthTotal: Int
     let categoryTotals: Dictionary<String, Int>
-}
-
-struct CategoryBudget: Codable, Identifiable{
-    let id: Int
-    let category: String
-    let budgetAmount: Double
-    let spent: Double
-    let icon: String
 }
 
 struct Expense: Codable, Identifiable{
