@@ -35,9 +35,9 @@ struct Expense: Codable, Identifiable{
     let amount: Double
     let vendor: String
     let description: String
+    let budget: String
+    let budgetID: String
     let category: String
-    let categoryID: String
-    let date: Date
     let month: Int
     let year: Int
     let isYearly: Bool
